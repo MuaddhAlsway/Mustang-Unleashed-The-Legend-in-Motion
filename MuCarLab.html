@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSTANG - MUCARLUB</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="MuCarLab.css">
+</head>
+<body>
+  <div class="containerNavbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/MuCarLab.html">HOME</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLabZone.html">ZONE</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLab-Classic.html">CLASSIC</a></li>  
+            <li><a href="http://127.0.0.1:5500/MuCarLab-MuscleLineUp.html">MUSCLEUP</a></li>
+            <li><a href="http://127.0.0.1:5500/BurnFuel.html">BURN FUEL</a></li>
+        </ul>
+        </div>
+
+    <div class="containerMustangeHome">
+        <div class="titleMustang">
+           <h3 class="HighlightMustang">
+                MUSTANG
+            </h3>
+            <p class="YearMustang">
+                2014
+            </p> 
+        </div>
+        <div class="backgroundMustang">
+            <img src="assest/Mustang home.png" alt="">
+        </div>
+        </div>
+        <div class="exploremore">
+            <a href="http://127.0.0.1:5500/MuCarLabZone.html">Explore More <span><i class="ri-arrow-right-line"></i></span></a>
+        </div>
+        <div class="BeastZone">
+        <div class="PowerfulBeast">
+            <h4 class="TitlePowerfulBeast">
+                Powerful-Beast
+            </h4>
+            <img  src="assest/Powerful beast.webp" alt="" class="ImgPowerfulBeast">
+        </div>
+         <div class="PowerfulBeast">
+            <h4 class="TitlePowerfulBeast">
+                Muscle-Legend
+            </h4>
+            <img  src="assest/bad boys.webp" alt="" class="ImgPowerfulBeast">
+        </div>
+        </div>
+        
+    </div>
+
+
+
+   
+        <script src="assest/js/scrollreveal.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sr = ScrollReveal({
+    distance: "80px",
+    duration: 2000,
+    easing: "ease-out",
+    reset: false
+  });
+
+  // Navbar
+  sr.reveal(".containerNavbar", {
+    origin: "top",
+    delay: 100
+  });
+
+  // Title & Year
+  sr.reveal(".HighlightMustang", {
+    origin: "left",
+    delay: 300
+  });
+  sr.reveal(".YearMustang", {
+    origin: "left",
+    delay: 500
+  });
+
+  // Mustang Image
+  sr.reveal(".backgroundMustang img", {
+    origin: "bottom",
+    scale: 0.9,
+    delay: 700
+  });
+
+  // Explore More button
+  sr.reveal(".exploremore", {
+    origin: "right",
+    delay: 900
+  });
+
+  // Powerful-Beast & Muscle-Legend cards
+  sr.reveal(".PowerfulBeast", {
+    origin: "bottom",
+    interval: 200,
+    scale: 0.85,
+    delay: 1100
+  });
+});
+
+
+    </script>
+</body>
+</html>

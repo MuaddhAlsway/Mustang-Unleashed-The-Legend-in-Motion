@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustang - MuCarLab CLASSIC</title>
+    <link rel="stylesheet" href="MuCarLab.css">
+</head>
+<body>
+      <div class="containerNavbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/MuCarLab.html">HOME</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLabZone.html">ZONE</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLab-Classic.html">CLASSIC</a></li>  
+            <li><a href="http://127.0.0.1:5500/MuCarLab-MuscleLineUp.html">MUSCLEUP</a></li>
+            <li><a href="http://127.0.0.1:5500/BurnFuel.html">BURN FUEL</a></li>
+        </ul>
+        </div>
+
+        <div class="Classic">
+            <div class="TITLEClassic">
+                <h4>MUSTANG</h4>
+            </div>
+
+            <div class="MustangClassic">
+
+            </div>
+
+          
+        </div>
+        <div class="highlightClassic">
+                <p> define 60s muscle cars</p>
+            </div>
+ <script src="assest/js/swiper-bundle.min.js"></script>
+<script src="assest/js/scrollreveal.min.js"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+  const sr = ScrollReveal({
+    distance: "80px",
+    duration: 2000,
+    easing: "ease-out",
+    reset: false
+  });
+
+  // Navbar animation
+  sr.reveal(".containerNavbar", {
+    origin: "top",
+    delay: 100
+  });
+
+  // Title animation
+  sr.reveal(".TITLEClassic", {
+    origin: "left",
+    delay: 300
+  });
+
+  // MustangClassic image animation
+  sr.reveal(".MustangClassic", {
+    origin: "right",
+    delay: 500
+  });
+
+  // Highlight paragraph animation
+  sr.reveal(".highlightClassic", {
+    origin: "bottom",
+    delay: 700
+  });
+});
+            </script>
+</body>
+</html>

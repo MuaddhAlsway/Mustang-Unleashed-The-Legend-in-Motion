@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustange - MuCarLab - ZoneArea</title>
+    <link rel="stylesheet" href="MuCarLab.css">
+    <link rel="icon" href="assest/logo.png" type="image/png">
+</head>
+<body>
+   <div class="containerNavbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/MuCarLab.html">HOME</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLabZone.html">ZONE</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLab-Classic.html">CLASSIC</a></li>  
+            <li><a href="http://127.0.0.1:5500/MuCarLab-MuscleLineUp.html">MUSCLEUP</a></li>
+            <li><a href="http://127.0.0.1:5500/BurnFuel.html">BURN FUEL</a></li>
+        </ul>
+        </div>
+    <div class="HiglightZONE">
+        <h4>
+            CREATE Your Zone        </h4>
+       
+    </div>
+   <div class="gallery-3d">
+  <img src="assest/drift bad boys.webp" class="side left">
+  <img src="assest/bad boys.webp" class="behind left">
+  <img src="assest/Powerful beast.webp" class="center">
+  <img src="assest/bad boys.webp" class="behind right">
+  <img src="assest/drift modern.webp" class="side right">
+</div>
+
+
+</div>
+
+</div>
+
+<script src="assest/js/scrollreveal.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sr = ScrollReveal({
+    distance: "50px",       // smaller distance for smooth entry
+    duration: 1500,          // slightly faster for fluid feel
+    easing: "ease-out",
+    reset: false
+  });
+
+  // Navbar animation
+  sr.reveal(".containerNavbar", { origin: "top", delay: 100 });
+
+  // Highlight text animation
+  sr.reveal(".HiglightZONE h4", { origin: "left", delay: 300, scale: 0.95 });
+
+  // Gallery images: center first
+  sr.reveal(".gallery-3d .center", { origin: "bottom", delay: 400, scale: 1 });
+
+  // Behind images
+  sr.reveal(".gallery-3d .behind.left", { origin: "bottom", delay: 600, scale: 0.9 });
+  sr.reveal(".gallery-3d .behind.right", { origin: "bottom", delay: 600, scale: 0.9 });
+
+  // Side images
+  sr.reveal(".gallery-3d .side.left", { origin: "bottom", delay: 1000, scale: 0.85 });
+  sr.reveal(".gallery-3d .side.right", { origin: "bottom", delay: 900, scale: 0.85 });
+});
+</script>
+
+
+</body>
+</html>

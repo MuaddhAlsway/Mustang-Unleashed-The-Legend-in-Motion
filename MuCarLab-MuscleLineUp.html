@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustang - MuCarLab - MuscleLineUp</title>
+    <link rel="stylesheet" href="MuCarLab.css">
+</head>
+<body>
+    <div class="containerNavbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/MuCarLab.html">HOME</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLabZone.html">ZONE</a></li>
+            <li><a href="http://127.0.0.1:5500/MuCarLab-Classic.html">CLASSIC</a></li>  
+            <li><a href="http://127.0.0.1:5500/MuCarLab-MuscleLineUp.html">MUSCLEUP</a></li>
+            <li><a href="http://127.0.0.1:5500/BurnFuel.html">BURN FUEL</a></li>
+        </ul>
+        </div>
+
+    <div class="Slide">
+        <div class="Slide1">
+
+        </div>
+         <div class="Slide2">
+
+        </div>
+         <div class="Slide3">
+
+        </div>
+    </div>
+    <div class="HiglightMuscleUp">
+        <div class="Muscleup-Paragraph1">
+            <h4>
+               <span>American</span>  <br> muscle car culture
+            </h4>
+        </div>
+        
+    </div>
+     <div class="Muscleup-Paragraph2">
+            <h4><span>holds value</span> <br> and style over <br> decades 
+            </h4>
+        </div>
+        <script src="assest/js/swiper-bundle.min.js"></script>
+<script src="assest/js/scrollreveal.min.js"></script>
+<script >
+    document.addEventListener("DOMContentLoaded", () => {
+  const sr = ScrollReveal({
+    distance: "80px",
+    duration: 2000,
+    easing: "ease-out",
+    reset: false // set to true if you want animations every time you scroll back
+  });
+
+  // Left → Right for Slide1
+  sr.reveal(".Slide1", {
+    origin: "left",
+    delay: 200
+  });
+
+  // Fade-in for Slide2
+  sr.reveal(".Slide2", {
+    origin: "bottom",
+    delay: 400
+  });
+
+  // Right → Left for Slide3
+  sr.reveal(".Slide3", {
+    origin: "right",
+    delay: 600
+  });
+
+  // Paragraph 1 from left
+  sr.reveal(".Muscleup-Paragraph1", {
+    origin: "left",
+    delay: 800
+  });
+
+  // Paragraph 2 from right
+  sr.reveal(".Muscleup-Paragraph2", {
+    origin: "right",
+    delay: 1000
+  });
+});
+</script>
+</body>
+</html>
