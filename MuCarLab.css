@@ -267,11 +267,11 @@ animation: moveBackground 10s linear infinite;
     margin-left: 470px;
     margin-top: -230px;
     justify-content: center;
-   
+   background: url(assest/CLASSIC.jpg);
     width: 1500px;
     height: 500px;
     background-position: center;
-    background-size: container;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .highlightClassic{
@@ -376,6 +376,7 @@ position: fixed;
   border-radius: 50%;
 
 }
+
 
 
 
