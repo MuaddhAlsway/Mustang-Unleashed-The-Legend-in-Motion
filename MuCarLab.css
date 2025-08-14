@@ -266,14 +266,13 @@ animation: moveBackground 10s linear infinite;
 .MustangClassic {
     margin-left: 470px;
     margin-top: -230px;
+    display: flex; /* works with justify-content */
     justify-content: center;
-   background: url(assest/CLASSIC.jpg);
+    background: url(assest/CLASSIC.jpg) center / cover no-repeat;
     width: 1000px;
     height: 500px;
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
 }
+
 .highlightClassic{
     display: flex;
     justify-content: center;
@@ -376,6 +375,7 @@ position: fixed;
   border-radius: 50%;
 
 }
+
 
 
 
