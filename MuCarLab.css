@@ -268,9 +268,12 @@ animation: moveBackground 10s linear infinite;
     margin-top: -230px;
     display: flex; /* works with justify-content */
     justify-content: center;
-    background: url(assest/CLASSIC.jpg) center / cover no-repeat;
+    background: url(assest/CLASSIC.jpg) ;
     width: 1000px;
     height: 500px;
+    
+      background-position: center;
+    background-size: cover;
 }
 
 .highlightClassic{
@@ -375,6 +378,7 @@ position: fixed;
   border-radius: 50%;
 
 }
+
 
 
 
