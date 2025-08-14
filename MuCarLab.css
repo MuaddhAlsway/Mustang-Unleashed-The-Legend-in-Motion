@@ -271,7 +271,7 @@ animation: moveBackground 10s linear infinite;
     width: 1500px;
     height: 500px;
     background-position: center;
-    background-size: cover;
+    background-size: container;
     background-repeat: no-repeat;
 }
 .highlightClassic{
@@ -376,5 +376,6 @@ position: fixed;
   border-radius: 50%;
 
 }
+
 
 
