@@ -267,7 +267,7 @@ animation: moveBackground 10s linear infinite;
     margin-left: 470px;
     margin-top: -230px;
     justify-content: center;
-    background-image: url(assest/CLASSIC.jpg);
+   
     width: 1000px;
     height: 500px;
     background-position: center;
@@ -376,3 +376,4 @@ position: fixed;
   border-radius: 50%;
 
 }
+
