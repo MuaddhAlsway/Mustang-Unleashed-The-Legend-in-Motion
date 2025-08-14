@@ -263,7 +263,7 @@ animation: moveBackground 10s linear infinite;
     }
 }
 
-.MustangClassic{
+.MustangClassic img{
     margin-left: 470px;
     margin-top: -230px;
     justify-content: center;
@@ -374,4 +374,5 @@ position: fixed;
   cursor: pointer;
   font-size: 28px;
   border-radius: 50%;
+
 }
