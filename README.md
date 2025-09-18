@@ -77,4 +77,13 @@ git clone https://github.com/MuaddhAlsway/Mustang-Unleashed-The-Legend-in-Motion
 View on GitHub Pages
 ## 💬 Author
 
-Built with ❤️ by Muaddh Alsway
+
+
+## 🔗 Link Post :
+
+  <a href="https://www.linkedin.com/posts/muaddh-alsway_frontenddevelopment-html-css-activity-7361875651273920512-gAeo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADejAqQBo4IKkDbZQ2uIFfqpjS0OHOJntq8" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+
+
+######  Built with ❤️ by Muaddh Alsway
